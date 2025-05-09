@@ -1,4 +1,4 @@
-# Wedding Site
+# Baby Site
 Maybe we can put some cool info here.
 
 ## Create React App
@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `npm deploy`
 Deploys a production build of the app to the `gh-pages` branch.\
-Publically ccessable at https://wedding.musselman.family
+Publically accessable at https://baby.musselman.family
 
 ### `npm start`
 Runs the app in the development mode.\
