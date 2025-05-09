@@ -33,13 +33,13 @@ function App() {
                 }
             <IndexHeader
                 date={date}
-                countdown={
-                    <Countdown
-                        date={date}
-                        time={time}
-                        timezone={timezone}
-                    />
-                }
+                // countdown={
+                //     <Countdown
+                //         date={date}
+                //         time={time}
+                //         timezone={timezone}
+                //     />
+                // }
             />
             <Container>
                 {
@@ -66,25 +66,9 @@ function App() {
                 </Row> */}
 
                 <Row id="topRow">
-                    <Col md="12" lg="3">
-                        <WeddingCard
-                            title="Virginia Celebration"
-                            imgSrc="https://lonelyplanetimages.imgix.net/a/g/hi/t/849f787f68b13ef33024920cc82ad5b0-fredericksburg.jpg?sharp=10&vib=20&w=600"
-                            // links={[
-                            //     {
-                            //         label: "Get Directions",
-                            //         href: "https://goo.gl/maps/poVcKKdE8vAjSWe89"
-                            //     }
-                            // ]}
-                        >
-                            We will hold a celebration gathering at Rachael's house in Fredericksburg, Virginia.
-                            <br />
-                            Please contact Rachael for more details.
-                        </WeddingCard>
-                    </Col>
                     <Col md="12" lg="6">
                         <WeddingCard
-                            title="The Ceremony"
+                            title="Baby Shower"
                             imgSrc="https://centconllc.com/wp-content/uploads/2021/05/TD-PHOTO-01301-small.jpg"
                             links={[
                                 // {
@@ -95,30 +79,27 @@ function App() {
                                 //     label: "View Live Stream",
                                 //     href: liveStreamUrl,
                                 // }
-                                {
-                                    label: "View Recording",
-                                    href: "https://youtu.be/6BJC1ZlIJb4"
-                                }
+                                // {
+                                //     label: "View Recording",
+                                //     href: "https://youtu.be/6BJC1ZlIJb4"
+                                // }
                             ]}
                         >
-                            Our Ceremony was held at Daybreak Church in Mechanicsburg.
-                            A recording of our ceremony is available on YouTube.
+                            The Baby is Coming!
                         </WeddingCard>
                     </Col>
                     <Col md="12" lg="3">
                         <WeddingCard
-                            title="New Hampshire Celebration"
+                            title="Another Card!"
                             imgSrc="https://i.pinimg.com/736x/67/2c/26/672c26ea0d2f8b698371250258a05638.jpg"
-                            links={[
-                                {
-                                    label: "Get Directions",
-                                    href: "https://goo.gl/maps/poVcKKdE8vAjSWe89"
-                                }
-                            ]}
+                            // links={[
+                            //     {
+                            //         label: "Get Directions",
+                            //         href: "https://goo.gl/maps/poVcKKdE8vAjSWe89"
+                            //     }
+                            // ]}
                         >
-                            We will hold a celebration gathering at Trinity Baptist Chuch in Nashua, New Hampshire.
-                            <br />
-                            Please contact Lisa for more details.
+                            Hello World!
                         </WeddingCard>
                     </Col>
 
@@ -193,7 +174,7 @@ function App() {
                      * Photos
                      */
                 }
-                <Row>
+                {/* <Row>
                     <Col md={0} lg={1} />
                     <Col md={12} lg={10}>
                         <Photos
@@ -206,20 +187,20 @@ function App() {
                         />
                     </Col>
                     <Col md={0} lg={1} />
-                </Row>
+                </Row> */}
 
                 {
                     /*
                      * Attribution
                      */
                 }
-                <Row>
+                {/* <Row>
                     <Col className="text-center">
                         <p className="small">
                             Photos by <a href="https://www.facebook.com/irislensphotography/" target="_blank">Iris Lens Photography</a>
                         </p>
                     </Col>
-                </Row>
+                </Row> */}
 
                 {
                     /*
@@ -237,7 +218,7 @@ function App() {
                      * Bible Verse
                      */
                 }
-                <Row>
+                {/* <Row>
                     <blockquote className="blockquote text-center">
                         <p className="mb-0">
                             Two people are better off than one, for they can help each other succeed.
@@ -247,7 +228,7 @@ function App() {
                             <cite title="Source Title">Ecclesiastes 4:9-10 (NLT)</cite>
                         </footer>
                     </blockquote>
-                </Row>
+                </Row> */}
 
             </Container>
             <DefaultFooter />
