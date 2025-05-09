@@ -1,6 +1,6 @@
 {
-  "name": "wedding-site",
-  "homepage": "https://wedding.musselman.family",
+  "name": "baby-site",
+  "homepage": "https://baby.musselman.family",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
