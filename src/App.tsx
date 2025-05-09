@@ -31,67 +31,14 @@ function App() {
                      * Main Image Header, Countdown
                      */
                 }
-            <IndexHeader
-                date={date}
-                // countdown={
-                //     <Countdown
-                //         date={date}
-                //         time={time}
-                //         timezone={timezone}
-                //     />
-                // }
-            />
+            <IndexHeader />
             <Container>
-                {
-                    /*
-                     * Ceremony, Reception, Accomodations
-                     */
-                }
-
-                {/* <Row id="topRow">
-                    <Col lg="2"/>
-                    <Col lg="8">
-                        {
-                            showAlert &&
-                                <Alert variant='warning' dismissible onClose={() => setShowAlert(false)}>
-                                    <Alert.Heading>Welcome to our Wedding Site!</Alert.Heading>
-
-                                    We are in the process of determing how to live stream our ceremony.
-                                    Please check back here for the latest link to the <a href={liveStreamUrl} target="_blank">Live Stream</a>!
-
-                                </Alert>
-                        }
-                    </Col>
-                    <Col lg="2"/>
-                </Row> */}
 
                 <Row id="topRow">
-                    <Col md="12" lg="6">
-                        <WeddingCard
-                            title="Baby Shower"
-                            imgSrc="https://centconllc.com/wp-content/uploads/2021/05/TD-PHOTO-01301-small.jpg"
-                            links={[
-                                // {
-                                //     label: "Get Directions",
-                                //     href: "https://goo.gl/maps/MvcMADHcQxgCj9Az6",
-                                // },
-                                // {
-                                //     label: "View Live Stream",
-                                //     href: liveStreamUrl,
-                                // }
-                                // {
-                                //     label: "View Recording",
-                                //     href: "https://youtu.be/6BJC1ZlIJb4"
-                                // }
-                            ]}
-                        >
-                            The Baby is Coming!
-                        </WeddingCard>
-                    </Col>
                     <Col md="12" lg="3">
                         <WeddingCard
-                            title="Another Card!"
-                            imgSrc="https://i.pinimg.com/736x/67/2c/26/672c26ea0d2f8b698371250258a05638.jpg"
+                            title="Something Else"
+                            imgSrc="https://i.ytimg.com/vi/bCxPjkji_Jc/maxresdefault.jpg"
                             // links={[
                             //     {
                             //         label: "Get Directions",
@@ -99,44 +46,41 @@ function App() {
                             //     }
                             // ]}
                         >
-                            Hello World!
+                            I hope the baby loves the beach!
                         </WeddingCard>
                     </Col>
 
-                    {/* <Col md="12" lg="4">
+                    <Col md="12" lg="6">
                         <WeddingCard
-                            title="The Reception"
-                            imgSrc="https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,h_1200,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/harrisburg/MBG-building-pic_9600AC96-9690-445F-B7464BBC94521921_38d86230-3a7e-4c0e-90e8839937c6c7a3.jpg"
+                            title="Baby Shower"
+                            imgSrc="https://www.tasteofhome.com/wp-content/uploads/2019/10/decoration-baby-shower-cute-party-shutterstock_681208396.jpg?w=1200"
                             links={[
                                 {
                                     label: "Get Directions",
-                                    href: "https://g.page/ABCMechanicsburg?share"
+                                    href: "https://goo.gl/maps/MvcMADHcQxgCj9Az6",
+                                },
+
+                            ]}
+                        >
+                            The Baby is Coming! <br />
+                            HEllo world! 
+                        </WeddingCard>
+                    </Col>
+                    <Col md="12" lg="3">
+                        <WeddingCard
+                            title="Baby Registry"
+                            imgSrc="https://i.pinimg.com/736x/67/2c/26/672c26ea0d2f8b698371250258a05638.jpg"
+                            links={[
+                                {
+                                    label: "Get Directions",
+                                    href: "https://goo.gl/maps/poVcKKdE8vAjSWe89"
                                 }
                             ]}
                         >
-                            After the ceremony, we'll share a pint at Appalachian Brewing Company.
-                            Buffet style bar food, beer, and wine will be served, starting at 4pm that afternoon.
+                            The baby wants a new laptop. 
                         </WeddingCard>
-                    </Col> */}
-                    {/* <Col md="12" lg="4">
-                        <WeddingCard
-                            title="Accomodations"
-                            imgSrc="https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/http://www.cfmedia.vfmleonardo.com/imageRepo/6/0/95/961/13/harwm-exterior-0073-hor-clsc_O/Courtyard-Harrisburg-West-Mechanicsburg-Exterior.jpg?tr=w-780%2Ch-437%2Cfo-auto"
-                            links={[
-                                {
-                                    label: "Get Directions",
-                                    href: "https://goo.gl/maps/SZFvNGbcuz9rQDn59"
-                                },
-                                {
-                                    label: "Book a Room",
-                                    href: "https://www.marriott.com/event-reservations/reservation-link.mi?id=1646065327858&key=GRP&app=resvlink"
-                                },
-                            ]}
-                        >
-                            We've reserved a block of rooms at the Courtyard Marriott for those traveling.
-                            Please make sure you've booked your room by <em>May 1, 2022</em>.
-                        </WeddingCard>
-                    </Col> */}
+                    </Col>
+
                 </Row>
 
                 {
@@ -148,7 +92,7 @@ function App() {
                     <Col md="12" lg="2" />
                     <Col md="6" lg="4">
                         <WeddingCard
-                            title="Registry"
+                            title="More Info"
                             links={[
                                 {
                                     label: "Amazon",
@@ -161,7 +105,7 @@ function App() {
                         </WeddingCard>
                     </Col>
                     <Col md="6" lg="4">
-                        <WeddingCard title="Address">
+                        <WeddingCard title="Other More Info">
                             We will send everyone our new address shortly after we've acclimated to married life.
                             Please sign our guest book and include your address so that we can update you.
                         </WeddingCard>

@@ -27,17 +27,16 @@ function IndexHeader(props) {
       <div className="page-header clear-filter" filter-color="blue">
         <div
           className="page-header-image"
-          style={{
-            backgroundImage:
-              "url(MR-16.jpeg)",
-          }}
+          // style={{
+          //   backgroundImage:
+          //     "url(MR-16.jpeg)",
+          // }}
           ref={pageHeader}
         ></div>
         <Container className="vh-100">
           <div className="content-center brand">
-            <h1 className="h1-seo">Matthew & Rebekah</h1>
-            <h3>{props.date}</h3>
-            {props.countdown}
+            <h1 className="h1">Baby Musselman</h1>
+            <h3>Coming September 2025</h3>
           </div>
         </Container>
       </div>
