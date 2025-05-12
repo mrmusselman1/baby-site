@@ -20,6 +20,8 @@ code {
   margin-top: 200px;
 }
 
-.carousel-inner {
+/*.carousel-inner {
   max-height: 400px;
-}
+  max-width: 600px;
+  margin: 0 auto;
+}*/
