@@ -95,8 +95,9 @@ function App() {
                                 '/photos/baby-site/simv-cropped.jpeg',
                                 '/photos/baby-site/LBI-2024-51-cropped.jpg',
                                 '/photos/baby-site/IMG_9551D-cropped.jpeg',
-                                '/photos/baby-site/LBI-2024-66-cropped.jpg',
+                                // '/photos/baby-site/LBI-2024-66-cropped.jpg',
                                 '/photos/baby-site/LBI-2024-37-cropped.jpg',
+                                '/photos/baby-site/LBI-2024.jpg',
                             ]}
                         />
                     </Col>

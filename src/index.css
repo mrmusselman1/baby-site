@@ -19,3 +19,7 @@ code {
 .brand {
   margin-top: 200px;
 }
+
+.carousel-inner {
+  max-height: 400px;
+}
