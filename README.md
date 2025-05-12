@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Scripts
 
-### `npm deploy`
+### `npm run deploy`
 Deploys a production build of the app to the `gh-pages` branch.\
 Publically accessable at https://baby.musselman.family
 
