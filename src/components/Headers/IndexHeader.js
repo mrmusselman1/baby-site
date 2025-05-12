@@ -26,7 +26,7 @@ function IndexHeader(props) {
     <>
       <div className="page-header clear-filter" filter-color="blue" style={{
         minHeight: "70vh",
-      }}> 
+      }}>
         <div
           className="page-header-image"
           style={{
