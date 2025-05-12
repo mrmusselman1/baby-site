@@ -30,6 +30,7 @@ function IndexHeader(props) {
           style={{
             backgroundImage:
               "url(photos/baby-site/LBI-2024-31-cropped.jpg)",
+            backgroundPosition: "right",
           }}
           ref={pageHeader}
         ></div>
