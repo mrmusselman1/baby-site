@@ -52,7 +52,7 @@ function App() {
                                 Mechanicsburg, PA 17050<br />
                             </p>
                             <p className="small">
-                                <em>Note: this is a different campus from the one in which we were married.</em>
+                                <em>Note: this is a different location than the one in which we were married.</em>
                             </p>
                         </WeddingCard>
                     </Col>

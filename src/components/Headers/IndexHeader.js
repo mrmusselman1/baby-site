@@ -24,17 +24,19 @@ function IndexHeader(props) {
 
   return (
     <>
-      <div className="page-header clear-filter" filter-color="blue">
+      <div className="page-header clear-filter" filter-color="blue" style={{
+        minHeight: "70vh",
+      }}> 
         <div
           className="page-header-image"
           style={{
             backgroundImage:
               "url(photos/baby-site/LBI-2024-31-cropped.jpg)",
-            backgroundPosition: "right",
+            backgroundPosition: "left bottom",
           }}
           ref={pageHeader}
         ></div>
-        <Container className="vh-100">
+        <Container className="vh-50">
           <div className="content-center brand">
             <h1 className="h1">Baby Musselman</h1>
             <h3>Coming September 2025</h3>
