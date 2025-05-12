@@ -92,11 +92,11 @@ function App() {
                         <Photos
                             photos={[
                                 '/photos/baby-site/LBI-2024-9.jpg',
-                                '/photos/baby-site/simv.jpeg',
-                                '/photos/baby-site/LBI-2024-51.jpg',
-                                '/photos/baby-site/IMG_9551D.jpeg',
-                                '/photos/baby-site/LBI-2024-66.jpg',
-                                '/photos/baby-site/LBI-2024-37.jpg',
+                                '/photos/baby-site/simv-cropped.jpeg',
+                                '/photos/baby-site/LBI-2024-51-cropped.jpg',
+                                '/photos/baby-site/IMG_9551D-cropped.jpeg',
+                                '/photos/baby-site/LBI-2024-66-cropped.jpg',
+                                '/photos/baby-site/LBI-2024-37-cropped.jpg',
                             ]}
                         />
                     </Col>
