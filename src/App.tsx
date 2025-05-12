@@ -16,14 +16,6 @@ import Countdown from 'Countdown';
 
 function App() {
 
-    // const liveStreamUrl = "https://www.youtube.com/channel/UC5dwWwlFlFmMf-hPOXdnpyg";
-
-    // const [showAlert, setShowAlert] = useState(true);
-
-    const date = 'May 21, 2022';
-    const time = '1:00 PM';
-    const timezone = 'GMT-0400'; // Eastern Daylight Time
-
     return (
         <div className="wrapper">
                 {
@@ -36,26 +28,11 @@ function App() {
 
                 <Row id="topRow">
                     <Col lg="1" />
-
-                    {/* <Col md="12" lg="3">
-                        <WeddingCard
-                            title="Something Else"
-                            imgSrc="https://i.ytimg.com/vi/bCxPjkji_Jc/maxresdefault.jpg"
-                            // links={[
-                            //     {
-                            //         label: "Get Directions",
-                            //         href: "https://goo.gl/maps/poVcKKdE8vAjSWe89"
-                            //     }
-                            // ]}
-                        >
-                            I hope the baby loves the beach!
-                        </WeddingCard>
-                    </Col> */}
-
                     <Col md="12" lg="10">
                         <WeddingCard
                             title="Baby Shower"
-                            imgSrc="https://www.tasteofhome.com/wp-content/uploads/2019/10/decoration-baby-shower-cute-party-shutterstock_681208396.jpg?w=1200"
+                            imgSrc="/photos/baby-site/LBI-2024-66-cropped.jpg"
+                            //imgSrc="https://www.tasteofhome.com/wp-content/uploads/2019/10/decoration-baby-shower-cute-party-shutterstock_681208396.jpg?w=1200"
                             links={[
                                 {
                                     label: "Directions",
@@ -68,7 +45,7 @@ function App() {
                             ]}
                         >
                             <p className="small">Join us for a baby shower honoring the parents to be!</p>
-                            <p className="small">Saturday, July 26, 2025 1:00pm</p>
+                            <p className="small">Saturday, July 26, 2025 at 1:00pm</p>
                             <p className="small">
                                 Daybreak Church at Orrs Bridge Road<br />
                                 1085 Orrs Bridge Road <br />
@@ -79,24 +56,7 @@ function App() {
                             </p>
                         </WeddingCard>
                     </Col>
-
                     <Col lg="1" />
-
-                    {/* <Col md="12" lg="3">
-                        <WeddingCard
-                            title="Baby Registry"
-                            imgSrc="https://i.pinimg.com/736x/67/2c/26/672c26ea0d2f8b698371250258a05638.jpg"
-                            links={[
-                                {
-                                    label: "Get Directions",
-                                    href: "https://goo.gl/maps/poVcKKdE8vAjSWe89"
-                                }
-                            ]}
-                        >
-                            The baby wants a new laptop. 
-                        </WeddingCard>
-                    </Col> */}
-
                 </Row>
 
                 {
@@ -107,9 +67,7 @@ function App() {
                 <Row>
                     <Col md="12" lg="2" />
                     <Col md="6" lg="4">
-                        <WeddingCard
-                            title="Book Request"
-                        >
+                        <WeddingCard title="Book Request">
                             <p className="small">One little request, we hope it's not too hard, please bring a book instead of a card.</p>
                             <p className="small">Well loved or new, either will do.</p>
                             <p className="small">Please sign your book so we will remember you!</p> 
@@ -133,10 +91,12 @@ function App() {
                     <Col md={12} lg={10}>
                         <Photos
                             photos={[
-                                '/photos/MR-14.jpeg',
-                                '/photos/MR-6.jpeg',
-                                '/photos/MR-18.jpeg',
-                                '/photos/MR.jpeg',
+                                '/photos/baby-site/LBI-2024-9.jpg',
+                                '/photos/baby-site/simv.jpeg',
+                                '/photos/baby-site/LBI-2024-51.jpg',
+                                '/photos/baby-site/IMG_9551D.jpeg',
+                                '/photos/baby-site/LBI-2024-66.jpg',
+                                '/photos/baby-site/LBI-2024-37.jpg',
                             ]}
                         />
                     </Col>
