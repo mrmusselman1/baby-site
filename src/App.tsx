@@ -114,7 +114,7 @@ function App() {
                             Photography by&nbsp;
                             <a href="https://www.HLC.art" target="_blank">
                             HLC Art
-                            </a>
+                            </a>.
                         </p>
                     </Col>
                 </Row>
