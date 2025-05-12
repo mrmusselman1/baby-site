@@ -35,7 +35,9 @@ function App() {
             <Container>
 
                 <Row id="topRow">
-                    <Col md="12" lg="3">
+                    <Col lg="1" />
+
+                    {/* <Col md="12" lg="3">
                         <WeddingCard
                             title="Something Else"
                             imgSrc="https://i.ytimg.com/vi/bCxPjkji_Jc/maxresdefault.jpg"
@@ -48,25 +50,39 @@ function App() {
                         >
                             I hope the baby loves the beach!
                         </WeddingCard>
-                    </Col>
+                    </Col> */}
 
-                    <Col md="12" lg="6">
+                    <Col md="12" lg="10">
                         <WeddingCard
                             title="Baby Shower"
                             imgSrc="https://www.tasteofhome.com/wp-content/uploads/2019/10/decoration-baby-shower-cute-party-shutterstock_681208396.jpg?w=1200"
                             links={[
                                 {
-                                    label: "Get Directions",
-                                    href: "https://goo.gl/maps/MvcMADHcQxgCj9Az6",
+                                    label: "Directions",
+                                    href: "https://maps.app.goo.gl/PhpwnXa5LADy5CBWA",
                                 },
-
+                                                                {
+                                    label: "Registry",
+                                    href: "https://babylist.com/list/rebekah-musselman",
+                                },
                             ]}
                         >
-                            The Baby is Coming! <br />
-                            HEllo world! 
+                            <p className="small">Join us for a baby shower honoring the parents to be!</p>
+                            <p className="small">Saturday, July 26, 2025 1:00pm</p>
+                            <p className="small">
+                                Daybreak Church at Orrs Bridge Road<br />
+                                1085 Orrs Bridge Road <br />
+                                Mechanicsburg, PA 17050<br />
+                            </p>
+                            <p className="small">
+                                <em>Note: this is a different campus from the one in which we were married.</em>
+                            </p>
                         </WeddingCard>
                     </Col>
-                    <Col md="12" lg="3">
+
+                    <Col lg="1" />
+
+                    {/* <Col md="12" lg="3">
                         <WeddingCard
                             title="Baby Registry"
                             imgSrc="https://i.pinimg.com/736x/67/2c/26/672c26ea0d2f8b698371250258a05638.jpg"
@@ -79,35 +95,29 @@ function App() {
                         >
                             The baby wants a new laptop. 
                         </WeddingCard>
-                    </Col>
+                    </Col> */}
 
                 </Row>
 
                 {
                     /*
-                     * Registry, Address
+                     * Book Request; Diaper Raffle
                      */
                 }
                 <Row>
                     <Col md="12" lg="2" />
                     <Col md="6" lg="4">
                         <WeddingCard
-                            title="More Info"
-                            links={[
-                                {
-                                    label: "Amazon",
-                                    href: "https://www.amazon.com/wedding/share/musselman-smith"
-                                },
-                            ]}
+                            title="Book Request"
                         >
-                            If you're so inclined, we've registered at Amazon.
-                            Since we're combining two households, we already have many household items and do not need many things.
+                            <p className="small">One little request, we hope it's not too hard, please bring a book instead of a card.</p>
+                            <p className="small">Well loved or new, either will do.</p>
+                            <p className="small">Please sign your book so we will remember you!</p> 
                         </WeddingCard>
                     </Col>
                     <Col md="6" lg="4">
-                        <WeddingCard title="Other More Info">
-                            We will send everyone our new address shortly after we've acclimated to married life.
-                            Please sign our guest book and include your address so that we can update you.
+                        <WeddingCard title="Diaper Raffle">
+                            <p className="small">Please bring a pack of diapers in any size for your chance to win a prize!</p>
                         </WeddingCard>
                     </Col>
                     <Col md="12" lg="2" />
@@ -118,7 +128,7 @@ function App() {
                      * Photos
                      */
                 }
-                {/* <Row>
+                <Row>
                     <Col md={0} lg={1} />
                     <Col md={12} lg={10}>
                         <Photos
@@ -131,20 +141,23 @@ function App() {
                         />
                     </Col>
                     <Col md={0} lg={1} />
-                </Row> */}
+                </Row>
 
                 {
                     /*
                      * Attribution
                      */
                 }
-                {/* <Row>
+                <Row>
                     <Col className="text-center">
                         <p className="small">
-                            Photos by <a href="https://www.facebook.com/irislensphotography/" target="_blank">Iris Lens Photography</a>
+                            Photography by&nbsp;
+                            <a href="https://www.HLC.art" target="_blank">
+                            HLC Art
+                            </a>
                         </p>
                     </Col>
-                </Row> */}
+                </Row>
 
                 {
                     /*
