@@ -59,6 +59,7 @@ function App() {
                             <p className="small">
                                 <em>Note: this is a different location than the one in which we were married.</em>
                             </p>
+                            <hr />
                         </WeddingCard>
                     </Col>
                     <Col lg="1" />
