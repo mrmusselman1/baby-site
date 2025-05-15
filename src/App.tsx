@@ -37,11 +37,18 @@ function App() {
                                 {
                                     label: "Directions",
                                     href: "https://maps.app.goo.gl/PhpwnXa5LADy5CBWA",
+                                    title: "Directions to Daybreak at OBR"
                                 },
-                                                                {
+                                {
                                     label: "Registry",
                                     href: "https://babylist.com/list/rebekah-musselman",
+                                    title: "Our BabyList Registry",
                                 },
+                                {
+                                    label: "Cash Fund",
+                                    href: "https://paypal.me/rebekahmusselman",
+                                    title: "Consider making a contribution to our Cash Fund",
+                                }
                             ]}
                         >
                             <p className="small">Join us for a baby shower honoring the parents to be!</p>
