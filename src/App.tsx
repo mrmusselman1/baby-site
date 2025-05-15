@@ -23,7 +23,7 @@ function App() {
                     <Col md="12" lg="10">
                         <WeddingCard
                             title="Baby Shower"
-                            imgSrc="/photos/baby-site/LBI-2024-66-cropped.jpg"
+                            imgSrc="/photos/baby-site/LBI-2024-66-cropped-2.jpg"
                             //imgSrc="https://www.tasteofhome.com/wp-content/uploads/2019/10/decoration-baby-shower-cute-party-shutterstock_681208396.jpg?w=1200"
                             links={[
                                 {
