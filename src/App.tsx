@@ -1,18 +1,10 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-// import { Alert } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IndexHeader from 'components/Headers/IndexHeader';
 import WeddingCard from 'WeddingCard';
 import DefaultFooter from 'components/Footers/DefaultFooter';
 import Photos from 'Photos';
-import Countdown from 'Countdown';
-
-/*
- * @todo TODO:
- * - for our friends far away, we plan to come visit you soon
- *
- */
 
 function App() {
 
