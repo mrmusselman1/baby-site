@@ -15,6 +15,7 @@ interface ILink
     label: string,
     href: string,
     title?: string,
+    samePage?: boolean,
 }
 
 const WeddingCard: React.FC<IWeddingCardCardProps> = ({
@@ -35,7 +36,12 @@ const WeddingCard: React.FC<IWeddingCardCardProps> = ({
                 <Card.Text>{children}</Card.Text>
                 {
                     links?.map((link, index) => (
-                        <Card.Link href={link.href} key={index} target="_blank" title={link.title}>
+                        <Card.Link
+                            href={link.href}
+                            key={index}
+                            target={!!link.samePage ? "" : "_blank"}
+                            title={link.title}
+                        >
                             {link.label}
                         </Card.Link>
                     ))

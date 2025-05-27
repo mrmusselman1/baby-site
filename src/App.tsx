@@ -40,6 +40,7 @@ function App() {
                                     label: "Give to 529",
                                     href: "#529planCode",
                                     title: "Consider making a gift to our Baby's 529 plan",
+                                    samePage: true,
                                 },
                                 {
                                     label: "Cash Fund",
@@ -116,8 +117,14 @@ function App() {
                         >
                             <p className="small">
                                 If you are interested in making a gift to our baby's 529 plan,
-                                navigate to <a href="https://www.ugift529.com/">ugift529.com</a> and
-                                enter our code to give a gift.
+                                navigate to&nbsp;
+                                <a
+                                    href="https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=72Q-J34"
+                                    target="_blank"
+                                >
+                                    ugift529.com
+                                </a>
+                                &nbsp;using our code to give a gift.
                             </p>
                             <Row className="fiveTwentyNineCode">
                                 <p className="center"><strong>72Q-J34</strong></p>
