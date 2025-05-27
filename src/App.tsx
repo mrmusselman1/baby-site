@@ -91,6 +91,12 @@ function App() {
                     <Col md="12" lg="2" />
                 </Row>
 
+                {
+                    /*
+                     * 529 Gift
+                     */
+                }
+
                 <hr />
 
                 <Row>
