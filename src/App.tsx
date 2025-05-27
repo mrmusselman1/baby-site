@@ -126,7 +126,7 @@ function App() {
 
                             <p className="small">
                                 <em>
-                                    Gifts are deposited directly to the Baby's 529 account without any fees.
+                                    Gifts are deposited and invested directly in the Baby's 529 account without any fees.
                                     <br />
                                     For more information, view&nbsp;
                                     <a href="https://www.pa529.com/gift/" target="_blank">PA529's</a>
