@@ -37,10 +37,15 @@ function App() {
                                     title: "Our BabyList Registry",
                                 },
                                 {
+                                    label: "Give to 529",
+                                    href: "#529planCode",
+                                    title: "Consider making a gift to our Baby's 529 plan",
+                                },
+                                {
                                     label: "Cash Fund",
                                     href: "https://paypal.me/rebekahmusselman",
                                     title: "Consider making a contribution to our Cash Fund",
-                                }
+                                },
                             ]}
                         >
                             <p className="small">Join us for a baby shower honoring the parents to be!</p>
@@ -84,6 +89,34 @@ function App() {
                         </WeddingCard>
                     </Col>
                     <Col md="12" lg="2" />
+                </Row>
+
+                <hr />
+
+                <Row>
+                    <Col md="12" lg="3" />
+                    <Col md="12" lg="6">
+                        <WeddingCard
+                            id="529planCode"
+                            title="Give to our Baby's 529 Plan"
+                            imgSrc="/photos/baby-site/529piggy.png"
+                            // links={[
+                            //     {
+                            //         label: "Donate",
+                            //         href: "https://www.ugift529.com/",
+                            //         title: "Donate at Ugift"
+                            //     },
+                            // ]}
+                        >
+                            <p className="small">
+                                If you are interested in making a gift to our baby's 529 plan,
+                                navigate to <a href="https://www.ugift529.com/">ugift529.com</a> and
+                                enter our code to give a gift.
+                            </p>
+                            <p className="center"><strong>72Q-J34</strong></p>
+                        </WeddingCard>
+                    </Col>
+                    <Col md="12" lg="3" />
                 </Row>
 
                 {

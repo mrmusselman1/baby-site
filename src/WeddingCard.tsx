@@ -1,8 +1,10 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { propTypes } from 'react-bootstrap/esm/Image';
 
 interface IWeddingCardCardProps
 {
+    id?: string,
     imgSrc?: string,
     title: string,
     links?: ILink[],
@@ -16,10 +18,10 @@ interface ILink
 }
 
 const WeddingCard: React.FC<IWeddingCardCardProps> = ({
-    imgSrc, title, links, children
+    id, imgSrc, title, links, children
 }) => {
     return (
-        <Card>
+        <Card id={id}>
             {
                 imgSrc &&
                     <Card.Img
