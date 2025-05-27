@@ -130,7 +130,7 @@ function App() {
                                     <br />
                                     For more information, view&nbsp;
                                     <a href="https://www.pa529.com/gift/" target="_blank">PA529's</a>
-                                    &nbsp;information regarding Gifts and&nbsp;
+                                    &nbsp;information regarding gifts and&nbsp;
                                     <a href="https://www.ugift529.com/home/faqs.html" target="_blank">Ugift FAQs</a>.
                                 </em>
                             </p>
