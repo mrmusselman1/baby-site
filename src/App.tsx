@@ -44,7 +44,7 @@ function App() {
                                 },
                                 {
                                     label: "Cash Fund",
-                                    href: "https://paypal.me/rebekahmusselman",
+                                    href: "https://www.paypal.com/paypalme/rebekahmusselman",
                                     title: "Consider making a contribution to our Cash Fund",
                                 },
                             ]}
@@ -107,13 +107,6 @@ function App() {
                             id="529planCode"
                             title="Give to our Baby's 529 Plan"
                             imgSrc="/photos/baby-site/529piggy.png"
-                            // links={[
-                            //     {
-                            //         label: "Donate",
-                            //         href: "https://www.ugift529.com/",
-                            //         title: "Donate at Ugift"
-                            //     },
-                            // ]}
                         >
                             <p className="small">
                                 If you are interested in making a gift to our baby's 529 plan,
@@ -126,10 +119,21 @@ function App() {
                                 </a>
                                 &nbsp;using our code to give a gift.
                             </p>
+
                             <Row className="fiveTwentyNineCode">
                                 <p className="center"><strong>72Q-J34</strong></p>
                             </Row>
 
+                            <p className="small">
+                                <em>
+                                    Gifts are deposited directly to the Baby's 529 account without any fees.
+                                    <br />
+                                    For more information, view&nbsp;
+                                    <a href="https://www.pa529.com/gift/" target="_blank">PA529's</a>
+                                    &nbsp;information regarding Gifts and&nbsp;
+                                    <a href="https://www.ugift529.com/home/faqs.html" target="_blank">Ugift FAQs</a>.
+                                </em>
+                            </p>
                         </WeddingCard>
                     </Col>
                     <Col md="12" lg="3" />
@@ -170,7 +174,7 @@ function App() {
                         <p className="small">
                             Photography by&nbsp;
                             <a href="https://www.HLC.art" target="_blank">
-                            HLC Art
+                                HLC Art
                             </a>.
                         </p>
                     </Col>
