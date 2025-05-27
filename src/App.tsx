@@ -119,11 +119,16 @@ function App() {
                                 navigate to <a href="https://www.ugift529.com/">ugift529.com</a> and
                                 enter our code to give a gift.
                             </p>
-                            <p className="center"><strong>72Q-J34</strong></p>
+                            <Row className="fiveTwentyNineCode">
+                                <p className="center"><strong>72Q-J34</strong></p>
+                            </Row>
+
                         </WeddingCard>
                     </Col>
                     <Col md="12" lg="3" />
                 </Row>
+
+                <hr />
 
                 {
                     /*
