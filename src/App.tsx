@@ -109,7 +109,7 @@ function App() {
                             imgSrc="/photos/baby-site/529piggy.png"
                         >
                             <p className="small">
-                                If you are interested in making a gift to our baby's 529 plan,
+                                If you are interested in making a gift to our Baby's 529 plan,
                                 navigate to&nbsp;
                                 <a
                                     href="https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=72Q-J34"
