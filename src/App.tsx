@@ -5,209 +5,27 @@ import IndexHeader from 'components/Headers/IndexHeader';
 import WeddingCard from 'WeddingCard';
 import DefaultFooter from 'components/Footers/DefaultFooter';
 import Photos from 'Photos';
+import { BrowserRouter, Navigate, Route, Router, Routes } from 'react-router-dom';
+import HomePage from 'pages/HomePage';
+import RegistryPage from 'pages/Registry';
 
 function App() {
 
     return (
         <div className="wrapper">
-                {
-                    /*
-                     * Main Image Header, Countdown
-                     */
-                }
             <IndexHeader />
             <Container>
-
-                <Row id="topRow">
-                    <Col lg="1" />
-                    <Col md="12" lg="10">
-                        <WeddingCard
-                            title="Baby Shower"
-                            imgSrc="/photos/baby-site/LBI-2024-66-cropped-2.jpg"
-                            //imgSrc="https://www.tasteofhome.com/wp-content/uploads/2019/10/decoration-baby-shower-cute-party-shutterstock_681208396.jpg?w=1200"
-                            links={[
-                                {
-                                    label: "Directions",
-                                    href: "https://maps.app.goo.gl/PhpwnXa5LADy5CBWA",
-                                    title: "Directions to Daybreak at OBR"
-                                },
-                                {
-                                    label: "Registry",
-                                    href: "https://babylist.com/list/rebekah-musselman",
-                                    title: "Our BabyList Registry",
-                                },
-                                {
-                                    label: "Give to 529",
-                                    href: "#529planCode",
-                                    title: "Consider making a gift to our Baby's 529 plan",
-                                    samePage: true,
-                                },
-                                {
-                                    label: "Cash Fund",
-                                    href: "https://www.paypal.com/paypalme/rebekahmusselman",
-                                    title: "Consider making a contribution to our Cash Fund",
-                                },
-                            ]}
-                        >
-                            <p className="small">Join us for a baby shower honoring the parents to be!</p>
-                            <hr />
-                            <p className="small">
-                                Saturday, July 26, 2025 at 1:00pm<br />
-                                <em>Please RSVP by June 26 to Olga at 717-419-2294</em>
-                            </p>
-                            <p className="small">
-                                Daybreak Church at Orrs Bridge Road<br />
-                                1085 Orrs Bridge Road<br />
-                                Mechanicsburg, PA 17050<br />
-                            </p>
-                            <hr />
-                            <p className="small">
-                                <em>Note: this is a different location than the one in which we were married.</em>
-                            </p>
-                            <hr />
-                        </WeddingCard>
-                    </Col>
-                    <Col lg="1" />
-                </Row>
-
-                {
-                    /*
-                     * Book Request; Diaper Raffle
-                     */
-                }
-                <Row>
-                    <Col md="12" lg="2" />
-                    <Col md="6" lg="4">
-                        <WeddingCard title="Book Request">
-                            <p className="small">One little request, we hope it's not too hard, please bring a book instead of a card.</p>
-                            <p className="small">Well loved or new, either will do.</p>
-                            <p className="small">Please sign your book so we will remember you!</p>
-                        </WeddingCard>
-                    </Col>
-                    <Col md="6" lg="4">
-                        <WeddingCard title="Diaper Raffle">
-                            <p className="small">Please bring a pack of diapers in any size for your chance to win a prize!</p>
-                        </WeddingCard>
-                    </Col>
-                    <Col md="12" lg="2" />
-                </Row>
-
-                {
-                    /*
-                     * 529 Gift
-                     */
-                }
-
-                <hr />
-
-                <Row>
-                    <Col md="12" lg="3" />
-                    <Col md="12" lg="6">
-                        <WeddingCard
-                            id="529planCode"
-                            title="Give to our Baby's 529 Plan"
-                            imgSrc="/photos/baby-site/529piggy.png"
-                        >
-                            <p className="small">
-                                If you are interested in making a gift to our Baby's 529 plan,
-                                navigate to&nbsp;
-                                <a
-                                    href="https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=72Q-J34"
-                                    target="_blank"
-                                >
-                                    ugift529.com
-                                </a>
-                                &nbsp;using our code to give a gift.
-                            </p>
-
-                            <Row className="fiveTwentyNineCode">
-                                <p className="center"><strong>72Q-J34</strong></p>
-                            </Row>
-
-                            <p className="small">
-                                <em>
-                                    Gifts are deposited and invested directly in the Baby's 529 account without any fees.
-                                    <br />
-                                    For more information, view&nbsp;
-                                    <a href="https://www.pa529.com/gift/" target="_blank">PA529's</a>
-                                    &nbsp;information regarding gifts and&nbsp;
-                                    <a href="https://www.ugift529.com/home/faqs.html" target="_blank">Ugift FAQs</a>.
-                                </em>
-                            </p>
-                        </WeddingCard>
-                    </Col>
-                    <Col md="12" lg="3" />
-                </Row>
-
-                <hr />
-
-                {
-                    /*
-                     * Photos
-                     */
-                }
-                <Row>
-                    <Col md={0} lg={1} />
-                    <Col md={12} lg={10}>
-                        <Photos
-                            photos={[
-                                '/photos/baby-site/LBI-2024-9.jpg',
-                                '/photos/baby-site/simv-cropped.jpeg',
-                                '/photos/baby-site/LBI-2024-51-cropped.jpg',
-                                '/photos/baby-site/IMG_9551D-cropped.jpeg',
-                                // '/photos/baby-site/LBI-2024-66-cropped.jpg',
-                                '/photos/baby-site/LBI-2024-37-cropped.jpg',
-                                '/photos/baby-site/LBI-2024.jpg',
-                            ]}
-                        />
-                    </Col>
-                    <Col md={0} lg={1} />
-                </Row>
-
-                {
-                    /*
-                     * Attribution
-                     */
-                }
-                <Row>
-                    <Col className="text-center">
-                        <p className="small">
-                            Photography by&nbsp;
-                            <a href="https://www.HLC.art" target="_blank">
-                                HLC Art
-                            </a>.
-                        </p>
-                    </Col>
-                </Row>
-
-                {
-                    /*
-                     * Spacer
-                     */
-                }
-                <Row>
-                    <Col>
-                        &nbsp;
-                    </Col>
-                </Row>
-
-                {
-                    /*
-                     * Bible Verse
-                     */
-                }
-                {/* <Row>
-                    <blockquote className="blockquote text-center">
-                        <p className="mb-0">
-                            Two people are better off than one, for they can help each other succeed.
-                            If one person falls, the other can reach out and help.
-                        </p>
-                        <footer className="blockquote-footer">
-                            <cite title="Source Title">Ecclesiastes 4:9-10 (NLT)</cite>
-                        </footer>
-                    </blockquote>
-                </Row> */}
-
+                <Routes>
+                    <Route path="/"
+                        element={<HomePage />}
+                    />
+                    <Route path="registry"
+                        element={<RegistryPage />}
+                    />
+                    <Route path="*"
+                        element={<Navigate to="/" replace />}
+                    />
+                </Routes>
             </Container>
             <DefaultFooter />
         </div>
