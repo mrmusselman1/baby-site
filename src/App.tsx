@@ -25,7 +25,7 @@ function App() {
                         element={<RegistryPage />}
                     />
                     <Route path="*"
-                        element={<Navigate to="/" replace />}
+                        element={<Navigate to="/registry" replace />}
                     />
                 </Routes>
             </Container>

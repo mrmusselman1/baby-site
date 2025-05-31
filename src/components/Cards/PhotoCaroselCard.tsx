@@ -3,7 +3,7 @@ import React from 'react';
 import { Col, Row } from 'reactstrap';
 
 const PhotoCaroselCard: React.FC = () =>
-    <Row>
+    <>
         <Row>
             <Col md={0} lg={1} />
             <Col md={12} lg={10}>
@@ -32,7 +32,7 @@ const PhotoCaroselCard: React.FC = () =>
                 </p>
             </Col>
         </Row>
-    </Row>
+    </>
 ;
 
 export default PhotoCaroselCard;
