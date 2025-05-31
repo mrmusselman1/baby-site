@@ -7,7 +7,7 @@ import DefaultFooter from 'components/Footers/DefaultFooter';
 import Photos from 'Photos';
 import { BrowserRouter, Navigate, Route, Router, Routes } from 'react-router-dom';
 import HomePage from 'pages/HomePage';
-import RegistryPage from 'pages/Registry';
+import RegistryPage from 'pages/RegistryPage';
 
 function App() {
 
