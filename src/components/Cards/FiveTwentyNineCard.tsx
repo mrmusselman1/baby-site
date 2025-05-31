@@ -2,6 +2,9 @@ import React from 'react';
 import { Row } from 'reactstrap';
 import WeddingCard from 'WeddingCard';
 
+const url529 = 'https://ugift529.com/readysave529/72Q-J34.html';
+// const url529 = 'https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=72Q-J34';
+
 const FiveTwentyNineCard: React.FC = () =>
     <WeddingCard
         id="529planCode"
@@ -12,7 +15,7 @@ const FiveTwentyNineCard: React.FC = () =>
             If you are interested in making a gift to our Baby's 529 plan,
             navigate to&nbsp;
             <a
-                href="https://www.ugift529.com/gifttpl/ugift/create/viewGiftCodeDetails.cs?ugiftcode=72Q-J34"
+                href={url529}
                 target="_blank"
             >
                 ugift529.com
