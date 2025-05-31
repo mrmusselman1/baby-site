@@ -11,6 +11,8 @@ import RegistryPage from 'pages/RegistryPage';
 
 function App() {
 
+    console.log(`process.env.PUBLIC_URL = '${process.env.PUBLIC_URL}'`);
+
     return (
         <div className="wrapper">
             <IndexHeader />
