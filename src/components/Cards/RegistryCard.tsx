@@ -14,7 +14,7 @@ const RegistryCard: React.FC = () =>
         // ]}
     >
         <p className="small">
-            We've created a registy at&nbsp;
+            We've created a registry at&nbsp;
             <a href="https://www.babylist.com/list/rebekah-musselman" target="_blank">BabyList</a>.
             If you are interested in helping us out with some of our baby needs,
             feel free to take a look. We appreciate any gift!
