@@ -1,7 +1,7 @@
 import React from 'react';
 import WeddingCard from 'WeddingCard';
 
-const link = 'https://www.amazon.com/registries/gl/guest-view/1APPR19IY3G1Z?ref_=cm_sw_r_cp_ud_ggr-subnav-share_NGF4FKNXVEJPVMH24WQZ';
+const amazonUrl = 'https://www.amazon.com/registries/gl/guest-view/1APPR19IY3G1Z?ref_=cm_sw_r_cp_ud_ggr-subnav-share_NGF4FKNXVEJPVMH24WQZ';
 
 const GiftListCard: React.FC = () =>
     <WeddingCard
@@ -17,7 +17,10 @@ const GiftListCard: React.FC = () =>
     >
         <p className="small">
             We've created a gift list on&nbsp;
-            <a href="{link}" target="_blank">Amazon</a> including ideas for both
+            <a 
+                href={amazonUrl} 
+                target="_blank"
+            >Amazon</a> including ideas for both
             gifts and items that would be helpful. 
         </p>
     </WeddingCard>
