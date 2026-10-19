@@ -19,10 +19,10 @@ function App() {
             <IndexHeader />
             <Container>
                 <Routes>
-                    {/* <Route path="/"
+                    <Route path="/announcement"
                         element={<HomePage />}
                     />
-                    <Route path="registry"
+                    {/* <Route path="registry"
                         element={<RegistryPage />}
                     />
                     <Route path="529"
