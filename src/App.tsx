@@ -8,6 +8,7 @@ import Photos from 'Photos';
 import { BrowserRouter, Navigate, Route, Router, Routes } from 'react-router-dom';
 import HomePage from 'pages/HomePage';
 import RegistryPage from 'pages/RegistryPage';
+import NewHomePage from 'pages/NewHomePage';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
             <IndexHeader />
             <Container>
                 <Routes>
-                    <Route path="/"
+                    {/* <Route path="/"
                         element={<HomePage />}
                     />
                     <Route path="registry"
@@ -26,9 +27,12 @@ function App() {
                     />
                     <Route path="529"
                         element={<RegistryPage />}
+                    /> */}
+                    <Route path="/hello"
+                        element={<NewHomePage />}
                     />
                     <Route path="*"
-                        element={<Navigate to="/registry" replace />}
+                        element={<Navigate to="/hello" replace />}
                     />
                 </Routes>
             </Container>
