@@ -12,15 +12,14 @@ const NewFiveTwentyNineCard: React.FC = () =>
         imgSrc="/photos/baby-site/529piggy.png"
         >
         <p className="small">
-            If you are interested in making a gift to our Baby's 529 plan,
-            navigate to&nbsp;
+            You can make a gift to the 529 plan at&nbsp;
             <a
                 href={url529}
                 target="_blank"
             >
                 ugift529.com
             </a>
-            &nbsp;using our code to give a gift.
+            &nbsp;using this gift code:
         </p>
 
         <Row className="fiveTwentyNineCode">
@@ -29,12 +28,14 @@ const NewFiveTwentyNineCard: React.FC = () =>
 
         <p className="small">
             <em>
-                Gifts are deposited and invested directly in the Baby's 529 account without any fees.
-                <br />
+                Gifts are deposited and invested directly in the account without any fees.
                 For more information, view&nbsp;
                 <a href="https://www.pa529.com/gift/" target="_blank">PA529's</a>
                 &nbsp;information regarding gifts and&nbsp;
                 <a href="https://www.ugift529.com/home/faqs.html" target="_blank">Ugift FAQs</a>.
+                <br />
+                <br />
+                For information regarding current investment selection, please contact dad. 
             </em>
         </p>
         </WeddingCard>

@@ -29,7 +29,7 @@ function DefaultFooter() {
               and&nbsp;
               <a target="_blank" href="https://demos.creative-tim.com/now-ui-kit-react/#/index">Now UI Kit</a>. */}
               Site <a href="https://github.com/mrmusselman1/baby-site" target="_blank">built</a> with love
-              by <a href="https://www.matthewrmusselman.com" target="_blank">Matt</a> and <a href="https://rebekahpsmith.com" target="_blank">Bekah</a>
+              by <a href="https://www.matthewrmusselman.com" target="_blank">mom</a> and <a href="https://rebekahpsmith.com" target="_blank">dad</a>
             </div>
           </div>
         </Container>

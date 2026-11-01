@@ -1,3 +1,4 @@
+import ClothesCard from 'components/Cards/ClothesCard';
 import FiveTwentyNineCard from 'components/Cards/FiveTwentyNineCard';
 import GiftListCard from 'components/Cards/GiftListCard';
 import NewFiveTwentyNineCard from 'components/Cards/NewFiveTwentyNineCard';
@@ -13,10 +14,11 @@ const NewHomePage: React.FC = () =>
             <Col md="6" lg="5">
                 <NewFiveTwentyNineCard />
             </Col>
-            <Col md="12" lg="1" />
             <Col md="6" lg="5">
                 <GiftListCard />
+                <ClothesCard />
             </Col>
+            <Col md="12" lg="1" />
         </Row>
     )
 };
