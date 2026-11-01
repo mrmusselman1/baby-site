@@ -22,7 +22,7 @@ const ClothesCard: React.FC = () =>
     >
         <p className="small">
             Babies grow suprisingly quickly and we're always looking for more clothes. 
-            Here are are a few of our favorite brands. Their sizing is predictable and they are of good quality.
+            Here are a few of our favorite brands. Their sizing is predictable and they are of good quality.
             <br />
             Check with mom for current sizes.
         </p>
